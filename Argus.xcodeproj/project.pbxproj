@@ -95,26 +95,9 @@
 				"-fno-objc-arc",
 			);
 			runOncePerArchitecture = 0;
-			script = "protoc --proto_path=$INPUT_FILE_DIR --objc_out $DERIVED_FILE_DIR $INPUT_FILE_PATH\n";
+			script = "~/Documents/_工作项目/_code/protoc-3.15.4-osx-x86_64/bin/protoc --proto_path=$INPUT_FILE_DIR --objc_out $DERIVED_FILE_DIR $INPUT_FILE_PATH\n";
 		};
 /* End PBXBuildRule section */
-
-/* Begin PBXContainerItemProxy section */
-		6DCBABE42583535200803292 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D906E2C2573CF7100901052 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DCBABE12583535200803292;
-			remoteInfo = "Watch Extension";
-		};
-		6DCBABF32583535200803292 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D906E2C2573CF7100901052 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DCBABD52583535100803292;
-			remoteInfo = Watch;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6DCBABF62583535200803292 /* Embed Watch Content */ = {
